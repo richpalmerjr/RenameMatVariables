@@ -3,6 +3,29 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
+/*
+
+To update github:
+
+  git commands:
+
+    git init
+    git add .
+    git commit -m "commit message here"
+    git push
+
+    ng build
+    ng deploy
+
+  git website:
+    https://richpalmerjr.github.io/RenameMatVariables/
+
+
+To get my code back, just in case it gets deleted for some reason
+  git checkout main
+
+*/
+
 @Component({
   selector: 'app-root',
   standalone: true,
