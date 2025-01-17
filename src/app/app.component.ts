@@ -32,6 +32,7 @@ export class AppComponent {
   convertVariables(codeInput: any) {
     this.resetVariables(); // reset any specific variables that need to be reset at the start
     console.clear();
+    console.log("making sure that this gets updated on github")
     console.log(
       '%c ' +
         '==================== START (finding variables) =============================',
